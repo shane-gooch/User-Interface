@@ -57,10 +57,102 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, span {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+.container {
+  max-width: 900px;
+  padding-left: 10px; 
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav  {
+  padding: 10px;
+}
+
+nav  a {
+  padding: 0px 30px;
+  color: gray;
+  text-decoration: none;
+}
+
+.top-section {
+  display: inline-block;
+  margin-bottom: 40px;
+  width: 55%;
+  text-align: center;
+}
+
+.top-section > h1 {
+  display: inline-block;
+  font-size: 70px;
+}
+
+.top-section > button {
+  font-size: 15px;
+  padding: 5px 45px;
+  border: 2px solid gray; 
+  background-color: white;
+}
+
+.world {
+  margin-top: 10px;
+  padding-top: 25px;
+}
+
+.mid-section {
+  display: flex;
+  flex-direction: row;
+  height: 90px; 
+}
+
+.mid-section h3 {
+  display:inline-block;
+  margin-right: 5px;
+  height: 10px;
+}
+
+.mid-section p {
+  display:inline-block;
+  
+}
+
+.middle-img {
+  width: 100%; 
+  margin: 20px 0px;    
+}
+
+.midbottom-section{
+  display: flex;
+  flex-direction: row;
+  height: 120x; 
+}
+
+.midbottom-section p {
+  padding-right: 10px; 
+}
+
+footer {
+  display: inline-block;
+  width: 100%;
+}
+
+footer p {
+  margin-top: 30px;
+  text-align: center; 
+}
+
+hr {
+  margin: 20px 0px; 
+}
